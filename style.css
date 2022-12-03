@@ -1,0 +1,283 @@
+body{
+    margin: 0;
+    background-color: rgb(16, 6, 6);
+}
+
+/* pas de margin et couleur noir du body */
+
+header{
+    background: conic-gradient(red, orange, yellow, green, blue);
+    text-align: center;
+    font-size: 40px;
+    padding: 40px;
+    font-family: "Rubik Glitch";  
+}
+
+/* je personalise mon header avec une couleur conic, j'aligne mon texte, je grossi mon texte, je le centre avec un padding et je lui met une police spéciale*/
+
+a{
+    color: rgb(86, 15, 194);
+    text-decoration: none;  
+}
+
+/* la couleur de mon titre lien et j'enlève le trait souligné */
+
+h1{
+    background: linear-gradient(red, blue);
+    padding: 20px;
+    font-family: "Press Start 2P";
+    margin: 0;
+}
+
+/* couleur de mon h1, une police, pas de marge et un padding pour créer de l'espace à l'intérieur de mon block */
+
+#idt{
+    background-color: aqua;
+}
+
+#exp{
+    background-color: blueviolet;
+}
+
+#form{
+    background-color: rgb(102, 240, 33);
+}
+
+#num{
+    background-color: rgb(240, 85, 33);
+}
+
+#int{
+    background-color: rgb(204, 204, 17);
+}
+
+#civil{
+    background-color: #11cc8e;
+}
+
+#prénom:hover{
+    background-color:aqua;
+    list-style-type: none;
+}
+
+#nom:hover{
+    background-color:aqua;
+    list-style-type: none;
+}
+
+#age:hover{
+    background-color:aqua;
+    list-style-type: none;
+}
+
+#ville:hover{
+    background-color:aqua;
+    list-style-type: none;
+}
+
+#professionel{
+    background-color: rgb(204, 17, 198);
+
+}
+
+#mac:hover{
+    background-color: rgb(129, 18, 126);
+    list-style-type: none;
+}
+
+#marie:hover{
+    background-color: rgb(129, 18, 126);
+    list-style-type: none;
+}
+
+#service:hover{
+    background-color: rgb(129, 18, 126);
+    list-style-type: none;
+}
+
+#evenement:hover{
+    background-color: rgb(129, 18, 126);
+    list-style-type: none;
+}
+
+#formation{
+    background-color: rgb(17, 204, 79);
+}
+
+
+#pix:hover{
+    background-color:rgb(9, 241, 125);
+    list-style-type: none;
+}
+
+#brevet:hover{
+    background-color:rgb(9, 241, 125);
+    list-style-type: none;
+}
+
+#bac:hover{
+    background-color:rgb(9, 241, 125);
+    list-style-type: none;
+}
+
+#droit:hover{
+    background-color:rgb(9, 241, 125);
+    list-style-type: none;
+}
+
+#compétence{
+    background-color: rgb(193, 74, 5);
+}
+
+#html:hover{
+    background-color:rgb(250, 95, 39);
+    list-style-type: none;
+}
+
+#css:hover{
+    background-color:rgb(250, 95, 39);
+    list-style-type: none;
+}
+
+#javascript:hover{
+    background-color:rgb(250, 95, 39);
+    list-style-type: none;
+}
+
+#wordpress:hover{
+    background-color:rgb(250, 95, 39);
+    list-style-type: none;
+}
+
+#git:hover{
+    background-color:rgb(250, 95, 39);
+    list-style-type: none;
+}
+
+#github:hover{
+    background-color:rgb(250, 95, 39);
+    list-style-type: none;
+}
+
+#photoshop:hover{
+    background-color:rgb(250, 95, 39);
+    list-style-type: none;
+}
+
+#intérêt{
+    background-color: rgb(124, 124, 8);
+}
+
+#linguistique:hover{
+    background-color:rgb(242, 250, 4);
+    list-style-type: none;
+}
+
+#jeux:hover{
+    background-color:rgb(242, 250, 4);
+    list-style-type: none;
+}
+
+#sport:hover{
+    background-color:rgb(242, 250, 4);
+    list-style-type: none;
+}
+
+#musique:hover{
+    background-color:rgb(242, 250, 4);
+    list-style-type: none;
+}
+
+#dessin:hover{
+    background-color:rgb(242, 250, 4);
+    list-style-type: none;
+}
+
+span{
+    display: inline-block;
+    animation: 3s linear 1s infinite running myrotate;    
+    border-top: 20px solid rgb(17, 231, 106);
+    border-bottom: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent;
+    margin-right: 20px; 
+    margin-left: 20px;
+}
+
+@keyframes myrotate{
+    100%{transform: rotateY(360deg)}
+}
+
+a:hover{
+    color: tomato;
+}
+
+a:link{
+    color:maroon;
+}
+                      
+.animation{
+    width:20px; 
+    height: 20px;
+    background-color: black;
+    animation: 3s linear 1s infinite running mySlide;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+@keyframes mySlide{
+    to{transform: translateX(100vw);}
+    from{transform: translateX(0);}
+}
+
+h2{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    padding-bottom: 10px;
+    margin: 0;
+    padding-top: 10px;
+}
+
+h1:hover{
+    color: gold;
+}
+
+main{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.ouvrir{display: block;}
+
+.fermer{display:none;}
+
+.open .ouvrir{display: none;}
+
+.open .fermer{display: block;}
+
+.open p{
+    transform: translateY(0);
+    display:block;    
+}
+
+p{
+    transform: translateY(-100%);
+    transition: transform 1s;
+    display:none;
+}
+
+div{display: block;
+    transform: translateY(0%);
+    transition: transform 1s;  
+}
+
+.open div{
+    transform: translateY(100);
+    display:block;    
+}
+
+
+
+
