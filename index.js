@@ -1,9 +1,3 @@
-let toggle = document.querySelector(`.toggle`);
-let body = document.querySelector(`body`);
-toggle.addEventListener(`click`, function() {
-body.classList.add(`open`);
-})
-
 let prénom = document.querySelector(`#prénom`);
 prénom.addEventListener(`click`, function() {
 let newp = document.createElement(`div`);
@@ -19,7 +13,7 @@ let newn = document.createElement(`div`);
 let textn = document.createTextNode(`👌👌👌👌👌👌👌👌`);
 newn.appendChild(textn);
 document.querySelector(`#nom`).appendChild(newn);
-prénom.classList.add(`myLastName`);
+nom.classList.add(`myLastName`);
 })
 
 let age = document.querySelector(`#age`);
@@ -28,21 +22,25 @@ let newa = document.createElement(`div`);
 let texta = document.createTextNode(`🥳🥳🥳🥳🥳🥳🥳🥳`);
 newa.appendChild(texta);
 document.querySelector(`#age`).appendChild(newa);
-prénom.classList.add(`myAge`);
+age.classList.add(`myAge`);
 })
 
 let ville = document.querySelector(`#ville`);
-ville.addEventListener(`click`, function geolocation() {
-navigator.geolocation.getCurrentPosition(coordonnees);
-});
+ville.addEventListener(`click`, function() {
+ville.classList.add(`mycity`);
+})
 
-function coordonnees(pos) {
-let crd = pos.coords;
-let latitude = crd.latitude;
-let longitude = crd.longitude;
-let winSize = 'width=500, height=500';
 
-document.querySelector('#ville').textContent = 'Latitude : ' + latitude.toFixed(2);
-document.querySelector('#ville').textContent = 'Longitude : ' + longitude.toFixed(6);
-document.querySelector('#ville').textContent = window.open(`https://www.google.co.in/maps/@${latitude},${longitude},15z`);
-}
+
+// let realisation = document.querySelector(`#realisation`);
+// realisation.addEventListener(`click`, function() {
+// let newr = document.createElement(`span`);
+// newr.style.width="1000px";
+// newr.style.height="1000px";
+// realisation.classList.add(`myRealisation`);
+// })
+
+
+
+
+  
