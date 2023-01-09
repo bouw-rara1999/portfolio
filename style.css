@@ -78,14 +78,17 @@ a:link {
   display: inline-block;
   margin-left: 10px;
 }
+
 .animation5{
   width: 0px; 
   height: 0px; 
-  margin: 200px auto; 
+  animation: 3s linear 1s infinite running mySlide;
   position: relative; 
-  border-left: 140px solid transparent; 
-  border-right: 140px solid transparent; 
-  border-bottom: 230px solid rgb(13, 197, 10); 
+  border-left: 25px solid transparent; 
+  border-right: 25px solid transparent; 
+  border-bottom: 25px solid rgb(13, 197, 10); 
+  display: inline-block;
+
 }
 
 .animation5:before{
@@ -93,12 +96,13 @@ content:"";
 width: 0px;
 height: 0px;
 position: absolute; 
-border-left: 120px solid transparent;
-border-right: 120px solid transparent; 
-border-bottom: 200px solid rgb(6, 6, 6);
-top: 20px;
-left:-120px;
+border-left: 20px solid transparent;
+border-right: 20px solid transparent; 
+border-bottom: 20px solid rgb(6, 6, 6);
+top: 2px;
+left:-20px;
 }
+
 
 
 
