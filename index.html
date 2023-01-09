@@ -5,18 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Freehand&family=Rubik+Glitch&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Freehand&family=Press+Start+2P&family=Rubik+Glitch&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Freehand&family=Rubik+Glitch&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Freehand&family=Press+Start+2P&family=Rubik+Glitch&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"/>
     <script src="index.js" defer></script>
     <title>Portfolio</title>
   </head>
@@ -41,17 +32,19 @@
     <main>
       <h1>
         <span></span>Mon CV<span></span>
-        <div class="animation"></div>
-        <div class="animation"></div>
-        <div class="animation"></div>
+        
       </h1>
       <section id="civil">
-        <h2 id="idt">Mon Etat civil</h2>
+        <h2 id="idt">Mon Etat civil
+        <div class="animation2"></div>
+        <div class="animation2"></div>
+        <div class="animation2"></div>
+      </h2>
         <ul>
-          <li href="#" id="prénom"><a>Prénom: Rayane</a></li>
-          <li href="#" id="nom"><a>Nom: Bouwdene</a></li>
-          <li href="#" id="age">Age: 22ans</li>
-          <li href="#" id="ville">Ville: Arles
+          <li href="#" id="prénom" class="puce" >Prénom: Rayane</li>
+          <li href="#" class="puce" id="nom">Nom: Bouwdene</li>
+          <li href="#" class="puce" id="age">Age: 22ans</li>
+          <li href="#" class="puce" id="ville">Ville: Arles
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d369635.6834952593!2d4.653645579696573!3d43.63196313585242!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12b672075d4814cd%3A0x40819a5fd970550!2sArles!5e0!3m2!1sfr!2sfr!4v1670086959404!5m2!1sfr!2sfr"
             width="800"
@@ -62,78 +55,143 @@
             referrerpolicy="no-referrer-when-downgrade"
             id="map"
           >
-          </iframe></li>
+          </iframe>
+        </li>
         </ul>
       </section>
       <section id="professionel">
-        <h2 id="exp">Mon expérience professionelle</h2>
+        <h2 id="exp">Mon expérience professionelle
+          <div class="animation3"></div>
+        <div class="animation3"></div>
+        <div class="animation3"></div>
+        </h2>
+  
         <ul>
-          <li id="mac"><a href="#">Mac donald's</a></li>
-          <p>J'ai eu une formation d'employé polyvalent à mac Donald's.</p>
-          <li id="marie"><a href="#">Marie blachère</a></li>
-          <p>
+          <li  class="puce" id="mac">Mac donald's</li>
+          <p class="openContainer1 invisible">J'ai eu une formation d'employé polyvalent à mac Donald's.</p>
+          <li class="puce" id="marie">Marie blachère</li>
+          <p class="openContainer2 invisible">
             J'étais essentiellement boulanger mais je faisais aussi beaucoup de
             préparation de commande
           </p>
-          <li  id="service"><a href="#">Service civique</a></li>
-          <p>
+          <li   class="puce" id="service">Service civique</li>
+          <p class="openContainer3 invisible">
             J'avais un poste semblable à celui de secrétaire, je travaillais sur
             ordinateur dans une association qui s'appelle parole indigo, et le
             principe de cette association est de promouvoir la culture
             africaine.
           </p>
-          <li  id="evenement"><a href="#">événemementiel</a></li>
-          <p>j'étais hôte d'accueil pour des galas de charité</p>
+          <li  class="puce"  id="evenement">événemementiel</li>
+          <p class="openContainer4 invisible">j'étais hôte d'accueil pour des galas de charité</p>
         </ul>
       </section>
+
       <section id="formation">
-        <h2 id="form">Formation</h2>
+        <h2 id="form">Formation
+          <div class="animation4"></div>
+        <div class="animation4"></div>
+        <div class="animation4"></div>
+        </h2>
         <ul>
-          <li  id="pix"><a href="#">Pix</a></li>
-          <p>izhndeua</p>
-          <li  id="brevet"><a href="#">Brevet</a></li>
-          <p>izhndeua</p>
-          <li  id="bac"><a href="#">bac ES (économique social)</a></li>
-          <p>izhndeua</p>
-          <li  id="droit"><a href="#">bac+ 2 droit</a></li>
-          <p>izhndeua</p>
+          <li  class="puce" id="pix">Pix</li>
+          <li  class="puce"  id="brevet">Brevet</li>
+          <li  class="puce"   id="bac">bac ES (économique social)</li>
+          <li  class="puce"  id="droit">bac+ 2 droit</li>
         </ul>
       </section>
+
       <section id="compétence">
-        <h2 id="num">compétence numérique</h2>
+        <h2 id="num">compétence numérique
+          <div class="animation5"></div>
+        <div class="animation5"></div>
+        <div class="animation5"></div>
+        </h2>
         <ul>
-          <li id="html"><a href="#">html</a></li>
-          <li  id="css"><a href="#">css</a></li>
-          <li  id="javascript"><a href="#">javascript</a></li>
-          <li  id="wordpress"><a href="#">wordpress</a></li>
-          <li  id="git"><a href="#">git</a></li>
-          <li id="github"><a href="#">github</a></li>
-          <li  id="photoshop"><a href="#">photoshop</a></li>
+          <div class="dede">
+          <li  class="puce" id="html" class="openContainer9">html</li>
+          <div id="html-logo">
+            <i class="fa-brands fa-html5"></i>
+          </div>
+        </div>
+        <div class="dede">
+          <li  class="puce"  id="css" class="openContainer10">css</li>
+          <div id="css-logo">
+            <i class="fa-brands fa-css3-alt"></i>
+          </div>
+        </div>
+<div class="dede">
+          <li  class="puce openContainer11"  id="javascript">javascript</li>
+          <div id="js-logo">
+            <i class="fa-brands fa-css3-alt"></i>
+          </div>
+</div>
+<div class="dede">
+          <li  class="puce openContainer12"  id="wordpress">wordpress</li>
+          <div id="wordpress-logo">
+               <i class="fa-brands fa-wordpress"></i>
+          </div>
+        </div>
+<div class="dede">
+          <li  class="puce openContainer14" id="github">github</li>
+          <div id="github-logo">
+            <i class="fa-brands fa-github"></i>
+          </div>
+        </div>
+<div class="dede">
+          <li  class="puce openContainer15"  id="photoshop">photoshop</li>
+          <div id="photoshop-logo">
+            <i class="fa-solid fa-wand-magic-sparkles"></i>
+          </div>
+        </div>
         </ul>
       </section>
+
       <section id="intérêt">
-        <h2 id="int">centre d'intérêt</h2>
+        <h2 id="int">centre d'intérêt
+          <div class="animation"></div>
+        <div class="animation"></div>
+        <div class="animation"></div>
+        </h2>
         <ul>
-          <li id="linguistique"><a href="#">Linguistique</a></li>
-          <p>izhndeua</p>
-          <li id="jeux"><a href="#">jeux vidéo</a></li>
-          <p>izhndeua</p>
-          <li id="sport"><a href="#">sport</a></li>
-          <p>izhndeua</p>
-          <li id="dessin"><a href="#">dessin</a></li>
-          <p>izhndeua</p>
-          <li id="musique"><a href="#">musique</a></li>
+          <li  class="puce" id="linguistique">Linguistique</li>
+          <li  class="puce" id="jeux">jeux vidéo</li>
+          <li  class="puce" id="sport">sport</li>
+          <li  class="puce" id="dessin">dessin</li>
+          <li  class="puce" id="musique">musique</li>
         </ul>
       </section>
-      <section>
-        <p>Contact me</p>
-        <address id="me">
-          <a href="#" class="link">rayane.bouwdene@gmail.com</a><br />
-          <a href="#" class="link">07 67 42 96 01</a>
-        </address>
-      </section>
+     
+
+   
+      <button id="expand-button2">Contact</button>
+      <div id="expandable-block2">
+        <button id="close-button2"><i class="fa-solid fa-xmark"></i></button>
+        <div id="form-container2">
+          <form id="contact-form2" method="post">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message"></textarea><br>
+            <input type="submit" value="Submit">
+          </form> 
+        </div>
+      </div>
+      
+
+
+
+
+<div id="expandable-block">
+  <button id="close-button"><i class="fa-solid fa-xmark"></i></button>
+  <a href="file:///C:/Users/adm/Desktop/formation%20d%C3%A9veloppeur%20web%20et%20web%20mobile/projet/refonte%20site/basic-fit/index.html">
+  <img src="C:\Users\adm\Desktop\formation développeur web et web mobile\portfolio\site-refonte.png" alt="Miniature du site basic-fit" width="200px" height="200px"/>
+</a>
+</div>
+
+
     </main>
-    <div id="typed-content"></div>
   </body>
 </html>
 
